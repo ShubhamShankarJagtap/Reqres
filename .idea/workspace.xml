@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cecc0cb3-ed9b-4c2e-97ef-37f296cb2033" name="Changes" comment="Latest commit." />
+    <list default="true" id="cecc0cb3-ed9b-4c2e-97ef-37f296cb2033" name="Changes" comment="Latest commit.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/PostMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/Put_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Post.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Put.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/cucumber_report.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Report/cucumber_report.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/BaseClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
@@ -39,20 +52,28 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Cucumber Java.Feature: Get.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the create user api by passing the data using class object..executor&quot;: &quot;Run&quot;,
     &quot;Cucumber.js.Get.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber.js.Scenario: Verify the create user api ....executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/AquaAutomation/API_AUTOMATION/src/test/java/stepdefinition&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/AquaAutomation/API_AUTOMATION&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/AquaAutomation/API_AUTOMATION/src/main/java/org/example/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/AquaAutomation/API_AUTOMATION/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stepdefinition" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Get" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -62,6 +83,26 @@
       <module name="API_AUTOMATION" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Get" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the create user api by passing the data using class object." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Post.feature" />
+      <option name="GLUE" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="API_AUTOMATION" />
+      <option name="NAME_FILTER" value="^Verify the create user api by passing the data using class object\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the create user api by passing the data using class object\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the create user api by passing the data using class object." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +129,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify the create user api ..." type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/Post.feature" />
+      <option name="myNameFilter" value="^Verify the create user api by passing the data using class object\.$" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/test/resources" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber.js.Scenario: Verify the create user api ..." />
+        <item itemvalue="Cucumber Java.Scenario: Verify the create user api by passing the data using class object." />
         <item itemvalue="Cucumber Java.Feature: Get" />
       </list>
     </recent_temporary>
@@ -120,11 +170,30 @@
       <option name="project" value="LOCAL" />
       <updated>1714152819761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Latest commit.">
+      <option name="closed" value="true" />
+      <created>1714153226294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714153226294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -156,5 +225,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

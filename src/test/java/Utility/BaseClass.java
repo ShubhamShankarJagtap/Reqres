@@ -10,6 +10,7 @@ public class BaseClass {
 
     static protected RequestSpecification requestSpecification;
     static protected Response response;
+    static protected int id;
 
     protected void getRequest(Map<String, String> headers, String endPoint){
 
